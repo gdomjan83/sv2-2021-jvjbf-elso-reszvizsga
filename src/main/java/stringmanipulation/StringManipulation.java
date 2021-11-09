@@ -11,7 +11,6 @@ public class StringManipulation {
             }
         }
         String result = new String(sb);
-
         return result;
     }
 }

@@ -54,6 +54,7 @@ public class CarShop {
 
     public List<Car> carsWithBrand(String brand) {
         List<Car> result = new ArrayList<>();
+
         for (Car actual : carsForSell) {
             if (actual.getBrand().equalsIgnoreCase(brand)) {
                 result.add(actual);

@@ -2,13 +2,13 @@ package cars;
 
 public class Car {
     private String brand;
-    private double engineCapactiy;
+    private double engineCapacity;
     private Color color;
     private int price;
 
-    public Car(String brand, double engineCapactiy, Color color, int price) {
+    public Car(String brand, double engineCapacity, Color color, int price) {
         this.brand = brand;
-        this.engineCapactiy = engineCapactiy;
+        this.engineCapacity = engineCapacity;
         this.color = color;
         this.price = price;
     }
@@ -17,8 +17,8 @@ public class Car {
         return brand;
     }
 
-    public double getEngineCapactiy() {
-        return engineCapactiy;
+    public double getEngineCapacity() {
+        return engineCapacity;
     }
 
     public Color getColor() {
