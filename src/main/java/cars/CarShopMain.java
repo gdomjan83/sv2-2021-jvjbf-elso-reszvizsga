@@ -22,21 +22,21 @@ public class CarShopMain {
 
 
         //2. rész
-//        Car car3 = new Car("Suzuki", 1.4, Color.RED, 1_500_000);
-//        Car car4 = new Car("Toyota", 1.4, Color.GREY, 2_700_000);
-//
-//        carShop.addCar(car3);
-//        carShop.addCar(car4);
-//
-//        System.out.println(carShop.sumCarPrice()); //6270000
-//
-//        System.out.println(carShop.numberOfCarsCheaperThan(2_000_000)); //1
-//
-//        System.out.println(carShop.numberOfCarsCheaperThan(1_000_000)); //0
-//
-//        System.out.println(carShop.carsWithBrand("Toyota").size()); //2
-//
-//        System.out.println(carShop.carsWithBrand("BMW").size()); //0
+        Car car3 = new Car("Suzuki", 1.4, Color.RED, 1_500_000);
+        Car car4 = new Car("Toyota", 1.4, Color.GREY, 2_700_000);
+
+        carShop.addCar(car3);
+        carShop.addCar(car4);
+
+        System.out.println(carShop.sumCarPrice()); //6270000
+
+        System.out.println(carShop.numberOfCarsCheaperThan(2_000_000)); //1
+
+        System.out.println(carShop.numberOfCarsCheaperThan(1_000_000)); //0
+
+        System.out.println(carShop.carsWithBrand("Toyota").size()); //2
+
+        System.out.println(carShop.carsWithBrand("BMW").size()); //0
 
 
 

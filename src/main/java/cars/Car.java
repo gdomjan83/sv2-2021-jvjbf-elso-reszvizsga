@@ -1,20 +1,20 @@
 package cars;
 
 public class Car {
-    private String model;
+    private String brand;
     private double engineCapactiy;
     private Color color;
     private int price;
 
-    public Car(String model, double engineCapactiy, Color color, int price) {
-        this.model = model;
+    public Car(String brand, double engineCapactiy, Color color, int price) {
+        this.brand = brand;
         this.engineCapactiy = engineCapactiy;
         this.color = color;
         this.price = price;
     }
 
-    public String getModel() {
-        return model;
+    public String getBrand() {
+        return brand;
     }
 
     public double getEngineCapactiy() {
